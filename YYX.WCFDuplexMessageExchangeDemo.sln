@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YYX.WCFDuplexMessageServer", "YYX.WCFDuplexMessageServer\YYX.WCFDuplexMessageServer.csproj", "{77579D41-7A49-41C6-8798-C1CBF591C676}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YYX.WCFDuplexMessageClient", "YYX.WCFDuplexMessageClient\YYX.WCFDuplexMessageClient.csproj", "{E92ADA03-54A3-4AA2-8138-B91D535B633D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{77579D41-7A49-41C6-8798-C1CBF591C676} = {77579D41-7A49-41C6-8798-C1CBF591C676}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77579D41-7A49-41C6-8798-C1CBF591C676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77579D41-7A49-41C6-8798-C1CBF591C676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77579D41-7A49-41C6-8798-C1CBF591C676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77579D41-7A49-41C6-8798-C1CBF591C676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E92ADA03-54A3-4AA2-8138-B91D535B633D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E92ADA03-54A3-4AA2-8138-B91D535B633D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E92ADA03-54A3-4AA2-8138-B91D535B633D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E92ADA03-54A3-4AA2-8138-B91D535B633D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C614451F-5CB0-4AD4-AD99-D9415A752505}
+	EndGlobalSection
+EndGlobal
