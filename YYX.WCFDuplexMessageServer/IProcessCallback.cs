@@ -2,7 +2,6 @@
 
 namespace YYX.WCFDuplexMessageServer
 {
-    [ServiceContract]
     public interface IProcessCallback
     {
         [OperationContract]
